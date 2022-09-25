@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px){
+    .body{
+        size: 100%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    *{
+        box-sizing: border-box;
+    }
+}
+
+.navbar{
+    background-color: black;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.logo1{
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.box{
+    margin-right: 25%;
+    }
+
+.Title{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1cm;
+    justify-content:flex-start;
+    display: flex;
+    margin: 75px;
+    text-align: left;
+    
+}
+
+ul{
+    list-style: none;
+
+}
+
+li{
+    list-style: none;
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+.p2{
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.4cm;
+    font-weight: 100;
+    margin: 20px;
+}
+
+.Title2{
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    margin: 50px;
+}
+
+.p{
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.5cm;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 50px ;
+}
+
+.buy a{
+    background-color: rgb(29, 24, 24);
+    border-radius: 50px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gothic A1', sans-serif;
+    justify-content: center;
+    display: flex;
+    margin: 75px;
+    width: 150px;
+    font-weight: 400;
+}
+
+.buy a:hover{
+    background-color: white;
+    color: rgb(29, 24, 24);
+    border: 1px solid black;
+
+}
+
+.TxT{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7cm;
+    font-style: italic;
+    font-weight: 100;
+    margin: 50px;
+
+
+}
+
+.p3{
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.5cm;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 50px ;
+}
+
+
+
+
+.Image{
+    justify-content: flex-end;
+    margin: auto;
+    display: flex;
+}
+
+.casque{
+    border-right: 1px solid gray;
+}
+
+.block{
+    display: flex;  
+}
+
+.logo2{
+    margin: 30px;
+}
+
+.Image3{
+    margin: 30px;
+}
+
+.p4{
+    margin: 45px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.4cm;
+    font-weight: 100;
+}
+
+.c{
+    display: flex;
+    margin-top: 20px;
+}
+
+.Title3{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.Title3-1{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.p5{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.5cm;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 10px ;
+    margin-left: 30px;
+}
+
+.block2{
+    display: flex;
+}
+
+.Image4{
+    margin-top: 50px;
+    margin: 30px;
+}
+
+.c3{
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo3{
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.p6{
+    margin: 25px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.4cm;
+    font-weight: 100;
+}
+
+.Title4{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.Title4-1{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.Title4-2{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.p7{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.5cm;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 10px ;
+    margin-left: 30px;
+}
+
+.block3{
+    display: flex;
+}
+
+.Image5{
+    margin-top: 50px;
+    margin: 30px;
+}
+
+.c5{
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo4{
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.p8{
+    margin: 35px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.4cm;
+    font-weight: 100;
+}
+
+.Title5{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.Title5-1{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+
+.p9{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.5cm;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 10px ;
+    margin-left: 30px;
+}
+
+.logo5{
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.p10{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.4cm;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px;
+}
+
+.p11{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px;
+}
+
+.p12{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.5cm;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 50px;
+}
+
+.block4{
+    display: flex;
+}
+
+
+.Image6{
+    margin-top: 50px;
+    margin: 30px;
+}
+
+.c7{
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo6{
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.p13{
+    margin: 35px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.4cm;
+    font-weight: 100;
+}
+
+.Title6{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+
+.p14{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.5cm;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 10px ;
+    margin-left: 30px;
+}
+
+.logo7{
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.p15{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.4cm;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px;
+}
+
+.Title7{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2cm;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px;
+}
+
+.p16{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.5cm;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 50px;
+}
+
+
+.Title8{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.7cm;
+    font-weight: 700;
+    text-align:start;
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(235, 228, 228);
+}
+
+.block5{
+    display: flex;
+}
+
+.c10{
+    flex-direction: column;
+    display: flex;
+    margin: 30px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 0.5cm;
+    font-weight: 100;
+}
+
+.p17{
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.p18{
+    margin: 20px;
+    margin-left: 50px;
+    line-height: 1.5em;
+}
